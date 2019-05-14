@@ -1,0 +1,73 @@
+body {
+    background-color: #6699ff;
+    text-align: center;
+}
+.navList {
+    /* display: inline; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    float: right;
+}
+.nav {
+    float: right;
+    position: fixed;
+}
+
+li {
+    display: inline;
+}
+
+.navBar {
+    padding: 10px 5px;
+    margin: 3px;
+}
+.navAboutA {
+    color: white;
+}
+
+.navTestimonialsA {
+    color: white;
+}
+
+.navPricingA {
+    color: white;
+}
+
+.aboutMe {
+    display: grid;
+}
+
+.test1 {
+    width: 33%;
+}
+
+.test2 {
+    width: 33%;
+}
+
+.test3 {
+    width: 33%;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .test1 {
+        width: 100%;
+    }
+
+    .test2 {
+        width: 100%;
+    }
+
+    .test3 {
+        width: 100%;
+    }
+}
